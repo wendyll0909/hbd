@@ -8,14 +8,14 @@
   },
   "repository": {
   "type": "git",
-  "url": "git+https://github.com/yourusername/happy-birthday.git"
+  "url": "git+https://github.com/wendyll0909/hbd.git"
 },
   "author": "",
   "license": "ISC",
   "bugs": {
-  "url": "https://github.com/yourusername/happy-birthday/issues"
+  "url": "https://github.com/wendyll0909/hbd.git"
 },
-"homepage": "https://github.com/yourusername/happy-birthday#readme" ,
+"homepage": "https://github.com/wendyll0909/hbd.git" ,
   "dependencies": {
     "express": "^4.13.3"
   }
