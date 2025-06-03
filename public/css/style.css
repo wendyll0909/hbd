@@ -14,6 +14,7 @@ body {
 #instruction-text {
     color: #5AFBE7;
     font-size: 36px;
+    white-space: pre-line; /* Ensures \n is rendered as a line break */
 }
 
 
