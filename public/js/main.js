@@ -167,7 +167,7 @@ function changeInstruction() {
     if (App.clickCount === 15) {
         $('#instruction-text').addClass('animated rollOut');
         setTimeout(function() {
-            $('#instruction-text').html('Happy 46th Birthday Mother🥳!<br>From Ur Son Wendyll<br><img src="images/download.jpg" alt="Mother" style="max-width: 300px; margin-top: 10px;"><img src="images/gg.jpg" alt="dogo" style="max-width: 300px; margin-top: 10px;">');
+            $('#instruction-text').html('Happy 46th Birthday Mother🥳!<br>From Ur Son Wendyll<br><img src="images/hh.jpg" alt="Mother" style="max-width: 200px; margin-top: 10px;"><img src="images/td.jpg" alt="dogo" style="max-width: 200px; margin-top: 10px;">');
             $('#instruction-text').removeClass();
             $('#instruction-text').addClass('animated bounceInDown')
         }, 200);
@@ -202,7 +202,7 @@ function showImages(number) {
             var speed = Math.floor((Math.random() * 500) + 200);
             var bounce = Math.floor((Math.random() * 6) + 6);
             $('#image_' + i).velocity(
-                {translateY: Math.min(viewportHeight * 0.4, 300)}, // Responsive bounce floor
+                {translateY: Math.min(viewportHeight * 0.1, 300)}, // Responsive bounce floor
                 {
                     duration: 2000,
                     easing: [speed, bounce]
@@ -218,7 +218,7 @@ function showImages(number) {
 function imageOut(id) {
     App.remainImageCount--;
     $('#' + id).velocity(
-        {translateY: -410});  
+        {translateY: -650});  
     // if there is no image on the screen, load another 5
     if (App.remainImageCount === 0) {
         loadImages(5);
